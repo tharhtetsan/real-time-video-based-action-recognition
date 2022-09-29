@@ -12,15 +12,16 @@ In every mini-batch, generator selected 5 consequence images and stacked  these 
 
 
 
-### Download the preprocessed data directly from
+### Download the dataset
+
+- ##### download from the original [UCF101](https://www.crcv.ucf.edu/data/UCF101.php)
+
+- ##### Or the preprocessed data directly from
 
 ```bash
 wget http://ftp.tugraz.at/pub/feichtenhofer/tsfusion/data/ucf101_jpegs_256.zip.001
 wget http://ftp.tugraz.at/pub/feichtenhofer/tsfusion/data/ucf101_jpegs_256.zip.002
 wget http://ftp.tugraz.at/pub/feichtenhofer/tsfusion/data/ucf101_jpegs_256.zip.003
-
-cat ucf101_jpegs_256.zip* > ucf101_jpegs_256.zip
-unzip ucf101_jpegs_256.zip
 ```
 
 
