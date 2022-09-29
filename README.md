@@ -1,6 +1,14 @@
 # Real-time-video-based-action-recognition
 
-I used motion stream CNN with ResNet50 for modeling video information in UCF101 dataset. I don't have too much time so I trained only 3 actions (**ApplyEyeMakeup, ApplyLipstick, Archery**) with epochs 50 my pretrain model can be download from here.  I choose the Two-Stream CNNs Technique according to [this blogs](https://towardsdatascience.com/deep-learning-architectures-for-action-recognition-83e5061ddf90).
+I used motion stream CNN with ResNet101 for modeling video information in UCF101 dataset. I don't have too much time so I trained only 4 actions (**"Archery","ApplyEyeMakeup","BaseballPitch","Basketball**) with only epochs 50 and my pretrain model can be download from [here](https://drive.google.com/file/d/13hGC5hBJ9T1uUCBmMwJYcgFVQL7eQC8w/view?usp=sharing).  I choose the Two-Stream CNNs Technique according to [this blogs](https://towardsdatascience.com/deep-learning-architectures-for-action-recognition-83e5061ddf90).
+
+
+
+
+
+#### Result
+
+![](output_result_gif.gif)
 
 
 
@@ -8,8 +16,7 @@ I used motion stream CNN with ResNet50 for modeling video information in UCF101 
 
 #### Motion CNN
 
-In every mini-batch, generator selected 5 consequence images and stacked  these images.
-
+In every mini-batch, generator selected 5 consequence images and stacked  these images. 
 
 
 ### Download the dataset
